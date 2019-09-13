@@ -1,0 +1,220 @@
+.form-login {
+	border-radius: 0.5rem;
+	box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0
+		rgba(0, 0, 0, 0.19);
+	padding: 2%;
+	width: 35%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 4%;
+	margin-top: 4%;
+	background: #fff;
+}
+
+.navbar {
+	background-color: #212121;
+}
+
+.navbar-toggler {
+	border: none;
+}
+
+.sidenav {
+	height: 100%;
+	width: 240px;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	background-color: #303030;
+	left: 0;
+	overflow-x: hidden;
+	margin-top: 55px;
+}
+
+.sidenav-link {
+	padding-top: 30px;
+	display: block;
+}
+
+.sidenav a {
+	padding: 6px 8px 6px 16px;
+	text-decoration: none;
+	font-size: 1.1rem;
+	color: #a1a1a1;
+	display: block;
+}
+
+.sidenav a:hover {
+	color: #f1f1f1;
+	text-decoration: none;
+}
+
+.sidenav .closebtn {
+	position: absolute;
+	top: 0;
+	right: 25px;
+	font-size: 36px;
+	margin-left: 220px;
+}
+
+.sidenav-toggle {
+	color: white;
+	padding-right: 1em;
+}
+
+.leave-form {
+	border-radius: 0.5rem;
+	width: 75%;
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0
+		rgba(0, 0, 0, 0.19);
+	border: solid 1px e0e0e0;
+	padding: 4%;
+}
+
+.btn-check {
+	background: white;
+	color: #1c9be8;
+	border: none;
+}
+
+.btn-reject {
+	background: white;
+	color: #7323dc;
+	border: none;
+}
+
+table {
+	font-size: 14px;
+	border-collapse: collapse;
+}
+
+.rm-border {
+	border: none;
+}
+
+input:focus {
+	outline: none;
+}
+
+.dataTables_wrapper .dataTables_filter input {
+	margin-right: .5em;
+	padding-left: 10px;
+	border-radius: 25px;
+	border: 1.4px solid #4c4646;
+	margin-left: 0.5em;
+	padding-left: 10px;
+	border-radius: 25px;
+	border: 1.4px solid #4c4646;
+}
+
+button, select {
+	text-transform: none;
+	background: white;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.current,
+	.dataTables_wrapper .dataTables_paginate .paginate_button.current:hover
+	{
+	color: #ffffff !important;
+	border: none;
+	background: #1c9be8;
+	border-radius: 50px;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button:hover {
+	color: #ffffff !important;
+	border: none;
+	background: #888f97;
+	border-radius: 50px;
+}
+
+.dataTables_wrapper {
+	position: relative;
+	clear: both;
+	zoom: 1;
+	overflow: auto;
+}
+
+div.scrollable {
+	width: 100px;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	overflow: auto;
+}
+
+/* width */
+::-webkit-scrollbar {
+	width: 10px;
+	height: 4px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	background: #f1f1f1;;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: #888;
+}
+
+.form-error {
+	display: block;
+	font-size: 13px;
+	color: #c72f44;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	line-height: 140%;
+}
+
+.fa-sort {
+	color: #dbdbdb;
+}
+
+@media only screen and (max-width: 600px) {
+	.leave-form {
+		border-radius: 0.5rem;
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+		box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0
+			rgba(0, 0, 0, 0.19);
+		border: solid 1px e0e0e0;
+		padding: 4%;
+	}
+	.sidenav {
+		width: 100%;
+		height: 100%;
+		position: fixed;
+		z-index: 1;
+		top: 0;
+		background-color: #303030;
+		left: 0;
+		overflow-x: hidden;
+		margin-top: 50px;
+	}
+	.form-login {
+		border-radius: 0.5rem;
+		box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0
+			rgba(0, 0, 0, 0.19);
+		padding: 6%;
+		width: 85%;
+		margin-top: 20%;
+		margin-bottom: 20%;
+		background: #fff;
+	}
+}
+
+.text-pending {
+	color: #3c6382;
+}
+
+.text-approved {
+	color: #20bf6b;
+}
+
+.text-rejected {
+	color: #e55039;
+}
